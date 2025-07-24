@@ -1,0 +1,77 @@
+/* styles/Chessgame.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .app-container {
+    background-color: #0f172a;   /* Dark background */
+    color: #e2e8f0;              /* Light text */
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;         /* Center horizontally */
+    justify-content: center;     /* Center vertically */
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #38bdf8;
+    margin-bottom: 1rem;
+  }
+  
+  .chessboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .button-container {
+    margin-top: 1rem;
+  }
+  
+  .restart-button {
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 0.5rem 1.5rem;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+  }
+  
+  .restart-button:hover {
+    background-color: #334155;
+  }
+  
+  .winner-message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    color: #facc15;
+  }
+  
+  .link-button {
+    display: inline-block;
+    margin-left: 1rem;
+    text-decoration: none;
+    text-align: center;
+    background-color: #1e293b;
+    color: #f8fafc;
+    padding: 0.5rem 1.5rem;
+    border-radius: 0.5rem;
+    transition: background-color 0.3s;
+  }
+  
+  .link-button:hover {
+    background-color: #334155;
+  }
+  
+  

@@ -1,0 +1,56 @@
+/* styles/Bot.css */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+  }
+  
+  .bot-page {
+    background-color: #0f172a; /* Dark navy */
+    color: #e2e8f0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;         /* Center horizontally */
+    justify-content: center;     /* Center vertically */
+    padding: 1rem;
+    box-sizing: border-box;
+    overflow: hidden;            /* Prevent scroll */
+  }
+  
+  .bot-page h2 {
+    font-size: 2rem;
+    color: #38bdf8;
+    margin-bottom: 1rem;
+  }
+  
+  .chessboard-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .bot-controls.button {
+    margin-top: 1rem;
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    background-color: #1e293b;
+    color: #f8fafc;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .bot-controls.button:hover {
+    background-color: #334155;
+  }
+  
+  .boat-board {
+    font-size: 1.2rem;
+    color: #facc15;
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
